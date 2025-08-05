@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 # --- Ayarlar ---
 image_path = r".\\Datas\\test\\test1.png"
 reconstructed_path = r".\\Datas\\test\\reconstructed_vqvae.jpg"
-model_path = "vqvae_vesikalik.pt"
+model_path = "vqvae_model.pt"
 
 # --- Orijinal boyutu ölç ---
 original_size = os.path.getsize(image_path)
@@ -56,3 +56,4 @@ axs[1].set_title("Reconstructed (VQ-VAE)")
 axs[1].axis("off")
 plt.tight_layout()
 plt.show()
+
