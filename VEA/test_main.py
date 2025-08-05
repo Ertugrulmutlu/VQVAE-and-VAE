@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 # --- Ayarlar ---
 image_path = "./Datas/test/test1.png"
 reconstructed_path = "./Datas/test/reconstructed_50.jpg"  # JPEG kullandık
-model_path = "vae_vesikalik_50.pt"
+model_path = "vae_model_50.pt"
 
 # --- Boyutunu ölç ---
 original_size = os.path.getsize(image_path)
@@ -55,3 +55,4 @@ axs[1].axis("off")
 
 plt.tight_layout()
 plt.show()
+
